@@ -1,6 +1,7 @@
-# teagile-mail-service
-TEAgile Mail Service for SopraSteria Hackaton
+# teagile-communication-service
+TEAgile Communication Service for SopraSteria Hackaton
 
+Run application at: http://localhost:8600
 Install RabbitMQ: https://www.rabbitmq.com/install-windows.html#installer
 				  https://www.youtube.com/watch?v=oRIF1xKEI0I
 				  
@@ -20,3 +21,9 @@ To enable rabbitmq interface:
 - login with: 
 	user: guest
 	password: guest
+	
+To enable STOMP plugin:
+
+- cd C:\Program Files\RabbitMQ Server\rabbitmq_server-3.8.0
+- cd sbin 
+- rabbitmq-plugins enable rabbitmq_stomp

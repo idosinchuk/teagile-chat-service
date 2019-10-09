@@ -1,13 +1,13 @@
-package com.soprasteria.hackaton.teagile.mail.service;
+package com.soprasteria.hackaton.teagile.communication.service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MailApplication {
+public class CommunicationApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MailApplication.class, args);
+		SpringApplication.run(CommunicationApplication.class, args);
 	}
 
 }

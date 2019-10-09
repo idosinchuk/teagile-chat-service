@@ -9,11 +9,11 @@
 		<version>2.1.7.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.soprasteria.hackaton.teagile.rabbitmq.service</groupId>
-	<artifactId>teagile-rabbitmq-service</artifactId>
+	<groupId>com.soprasteria.hackaton.teagile.communication.service</groupId>
+	<artifactId>teagile-communication-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>teagile-rabbitmq-service</name>
-	<description>TEAgile RabbitMQ Service for SopraSteria Hackaton</description>
+	<name>teagile-communication-service</name>
+	<description>TEAgile Communication Service for SopraSteria Hackaton</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -66,23 +66,35 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-amqp</artifactId>
 		</dependency>
-	
+
+		<!-- Dependency to WebSocket -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-websocket</artifactId>
+		</dependency>
+
+		<!-- Dependency to Reactor Netty -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-reactor-netty</artifactId>
+		</dependency>
+
 	</dependencies>
 
 	<build>
 		<plugins>
-		
+
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			
+
 			<plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.22.0</version>
-            </plugin>
-            
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.22.0</version>
+			</plugin>
+
 		</plugins>
 	</build>
 
