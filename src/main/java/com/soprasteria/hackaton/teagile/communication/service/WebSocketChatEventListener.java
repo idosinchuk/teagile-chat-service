@@ -10,9 +10,10 @@ import org.springframework.web.socket.messaging.SessionDisconnectEvent;
 
 import com.soprasteria.hackaton.teagile.communication.service.dto.WebSocketChatMessageDTO;
 
+// This class listens to events such as a new user joining the chat or an user leaving the chat.
 @Component
 public class WebSocketChatEventListener {
-	
+
 	@Autowired
 	private SimpMessageSendingOperations messagingTemplate;
 
@@ -23,10 +24,10 @@ public class WebSocketChatEventListener {
 
 	@EventListener
 	public void handleWebSocketDisconnectListener(SessionDisconnectEvent event) {
-		
+
 		StompHeaderAccessor headerAccessor = StompHeaderAccessor.wrap(event.getMessage());
 		String username = (String) headerAccessor.getSessionAttributes().get("username");
-		
+
 		if (username != null) {
 			WebSocketChatMessageDTO chatMessage = new WebSocketChatMessageDTO();
 			chatMessage.setType("Leave");

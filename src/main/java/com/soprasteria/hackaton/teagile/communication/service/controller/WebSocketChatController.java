@@ -12,13 +12,13 @@ import com.soprasteria.hackaton.teagile.communication.service.dto.WebSocketChatM
 public class WebSocketChatController {
 	
 	@MessageMapping("/chat.sendMessage")
-	@SendTo("/topic/javainuse")
+	@SendTo("/topic/teagilechat")
 	public WebSocketChatMessageDTO sendMessage(@Payload WebSocketChatMessageDTO webSocketChatMessage) {
 		return webSocketChatMessage;
 	}
 
 	@MessageMapping("/chat.newUser")
-	@SendTo("/topic/javainuse")
+	@SendTo("/topic/teagilechat")
 	public WebSocketChatMessageDTO newUser(@Payload WebSocketChatMessageDTO webSocketChatMessage,
 			SimpMessageHeaderAccessor headerAccessor) {
 		

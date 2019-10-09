@@ -2,6 +2,7 @@
 TEAgile Communication Service for SopraSteria Hackaton
 
 Run application at: http://localhost:8600
+
 Install RabbitMQ: https://www.rabbitmq.com/install-windows.html#installer
 				  https://www.youtube.com/watch?v=oRIF1xKEI0I
 				  
