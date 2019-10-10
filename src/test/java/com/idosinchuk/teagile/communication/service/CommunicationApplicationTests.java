@@ -1,4 +1,4 @@
-package com.soprasteria.hackaton.teagile.communication.service;
+package com.idosinchuk.teagile.communication.service;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

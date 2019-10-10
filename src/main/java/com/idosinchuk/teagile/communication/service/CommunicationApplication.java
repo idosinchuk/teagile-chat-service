@@ -1,4 +1,4 @@
-package com.soprasteria.hackaton.teagile.communication.service;
+package com.idosinchuk.teagile.communication.service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

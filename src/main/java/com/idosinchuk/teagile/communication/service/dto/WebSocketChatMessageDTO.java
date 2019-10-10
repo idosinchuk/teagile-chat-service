@@ -1,4 +1,4 @@
-package com.soprasteria.hackaton.teagile.communication.service.dto;
+package com.idosinchuk.teagile.communication.service.dto;
 
 import lombok.Data;
 

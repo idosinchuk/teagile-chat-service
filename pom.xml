@@ -10,11 +10,11 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>com.soprasteria.hackaton.teagile.communication.service</groupId>
+	<groupId>com.idosinchuk.teagile.communication.service</groupId>
 	<artifactId>teagile-communication-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>teagile-communication-service</name>
-	<description>TEAgile Communication Service for SopraSteria Hackaton</description>
+	<description>Communication Service for TEAgile project</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

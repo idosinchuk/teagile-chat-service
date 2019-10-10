@@ -1,4 +1,4 @@
-package com.soprasteria.hackaton.teagile.communication.service.controller;
+package com.idosinchuk.teagile.communication.service.controller;
 
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.Payload;
@@ -6,7 +6,7 @@ import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.messaging.simp.SimpMessageHeaderAccessor;
 import org.springframework.stereotype.Controller;
 
-import com.soprasteria.hackaton.teagile.communication.service.dto.WebSocketChatMessageDTO;
+import com.idosinchuk.teagile.communication.service.dto.WebSocketChatMessageDTO;
 
 @Controller
 public class WebSocketChatController {

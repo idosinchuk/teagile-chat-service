@@ -1,5 +1,5 @@
 # teagile-communication-service
-TEAgile Communication Service for SopraSteria Hackaton
+Communication Service for TEAgile project
 
 Run application at: http://localhost:8600
 
