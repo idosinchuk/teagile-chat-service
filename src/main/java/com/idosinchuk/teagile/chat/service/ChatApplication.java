@@ -1,13 +1,13 @@
-package com.idosinchuk.teagile.communication.service;
+package com.idosinchuk.teagile.chat.service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CommunicationApplication {
+public class ChatApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CommunicationApplication.class, args);
+		SpringApplication.run(ChatApplication.class, args);
 	}
 
 }

@@ -1,4 +1,4 @@
-package com.idosinchuk.teagile.communication.service;
+package com.idosinchuk.teagile.chat.service;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;

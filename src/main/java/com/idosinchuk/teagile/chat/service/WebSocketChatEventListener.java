@@ -1,4 +1,4 @@
-package com.idosinchuk.teagile.communication.service;
+package com.idosinchuk.teagile.chat.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.event.EventListener;
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.socket.messaging.SessionConnectedEvent;
 import org.springframework.web.socket.messaging.SessionDisconnectEvent;
 
-import com.idosinchuk.teagile.communication.service.dto.WebSocketChatMessageDTO;
+import com.idosinchuk.teagile.chat.service.dto.WebSocketChatMessageDTO;
 
 // This class listens to events such as a new user joining the chat or an user leaving the chat.
 @Component

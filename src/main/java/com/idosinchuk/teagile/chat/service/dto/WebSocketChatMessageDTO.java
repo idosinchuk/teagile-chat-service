@@ -1,4 +1,4 @@
-package com.idosinchuk.teagile.communication.service.dto;
+package com.idosinchuk.teagile.chat.service.dto;
 
 import lombok.Data;
 

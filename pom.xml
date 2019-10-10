@@ -10,11 +10,11 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>com.idosinchuk.teagile.communication.service</groupId>
-	<artifactId>teagile-communication-service</artifactId>
+	<groupId>com.idosinchuk.teagile.chat.service</groupId>
+	<artifactId>teagile-chat-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>teagile-communication-service</name>
-	<description>Communication Service for TEAgile project</description>
+	<name>teagile-chat-service</name>
+	<description>Chat Service for TEAgile project</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
